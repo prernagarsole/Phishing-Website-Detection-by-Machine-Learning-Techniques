@@ -27,3 +27,15 @@ The below-mentioned category of features are extracted from the URL data:
 
 
 Together 17 features are extracted from the 10,000 URL dataset and are stored in [5.urldata.csv](./DataFiles/5.urldata.csv)
+
+## Machine learning models and Training
+
+The dataset is treated as a classification problem, distinguishing between phishing and legitimate URLs. Various supervised machine learning models are considered for training. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In          Decision Tree <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In          Random Forest <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In         Multilayer Perceptrons <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In          XGBoost <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In          Autoencoder Neural Network <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In          Support Vector Machines <be>
+
+All these models are trained using the dataset, and the evaluation of each model is conducted using the test dataset
